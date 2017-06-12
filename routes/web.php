@@ -18,6 +18,10 @@
         return view('welcome');
     });
 
+    Route::get('/', function () {
+        return view('welcome');
+    })->name('login.page');
+
     Route::post('/login',[
         'uses'=>'KaryawanController@postLogin',
         'as'=> 'login'
