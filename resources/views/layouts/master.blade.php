@@ -20,6 +20,8 @@
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="plugins/select2/select2.min.css">
+    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -48,15 +50,20 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
     <script src="dist/js/app.min.js"></script>
+    <script src="plugins/select2/select2.full.min.js"></script>
     <script src="plugins/datepicker/bootstrap-datepicker.js"></script>
     <script src="plugins/datatables/jquery.dataTables.min.js"></script>
     <script src="plugins/datatables/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+    <script src="plugins/daterangepicker/daterangepicker.js"></script>
     <script>
         $(function () {
+            $(".select2").select2();
             $('#datepicker').datepicker({
                 autoclose: true,
                 todayHighlight: true
             });
+            $('#reservation').daterangepicker();
         });
     </script>
 </body>
