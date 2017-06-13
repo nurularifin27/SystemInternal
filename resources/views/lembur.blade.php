@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-    PragmaINF | SPPD
+    PragmaINF | Lembur
 @endsection
 
 @section('contentheader')

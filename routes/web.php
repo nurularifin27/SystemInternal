@@ -35,11 +35,11 @@
     })->name('lembur');
 
     Route::get('/karyawan', function () {
-        return view('transaksi');
+        return view('karyawan');
     })->name('data.karyawan');
 
     Route::get('/account', function () {
-        return view('transaksi');
+        return view('account');
     })->name('data.account');
 
     Route::get('/', function () {
