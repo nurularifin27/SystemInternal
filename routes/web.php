@@ -18,6 +18,30 @@
         return view('welcome');
     });
 
+    Route::get('/transaksi', function () {
+        return view('transaksi');
+    })->name('transaksi');
+    
+    Route::get('/sppd', function () {
+        return view('sppd');
+    })->name('sppd');
+
+    Route::get('/akomodasi', function () {
+        return view('akomodasi');
+    })->name('akomodasi');
+
+    Route::get('/lembur', function () {
+        return view('lembur');
+    })->name('lembur');
+
+    Route::get('/karyawan', function () {
+        return view('transaksi');
+    })->name('data.karyawan');
+
+    Route::get('/account', function () {
+        return view('transaksi');
+    })->name('data.account');
+
     Route::get('/', function () {
         return view('welcome');
     })->name('login.page');
