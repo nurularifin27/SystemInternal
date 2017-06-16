@@ -24,10 +24,69 @@
         <!-- /.box-header -->
         <div class="box-body">
             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#accountModal">Add New</button>
-            <div class="row">
-            
-            </div>
           <!-- /.row -->
+        </div>
+        <div class="box-body">
+            <table id="listTabel" class="table table-bordered table-hover">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nama Account</th>
+                    <th>Keterangan</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody
+                    <tr>
+                        <td>1</td>
+                        <td>Pembelian</td>
+                        <td>Buat Beli</td>
+                        <td>
+                            action
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Pembelian</td>
+                        <td>Buat Beli</td>
+                        <td>
+                            action
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Pembelian</td>
+                        <td>Buat Beli</td>
+                        <td>
+                            action
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Pembelian</td>
+                        <td>Buat Beli</td>
+                        <td>
+                            action
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Pembelian</td>
+                        <td>Buat Beli</td>
+                        <td>
+                            action
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Pembelian</td>
+                        <td>Buat Beli</td>
+                        <td>
+                            action
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
         </div>
       </div>
         
@@ -42,7 +101,7 @@
       <div class="modal-body">
                       <form action="#" method="post" role="form">
           <div class="row">
-            <div class="col-md-11">
+            <div class="col-md-12">
               <div class="form-group">
                 <label>Nama Account</label>
                   <input type="text" class="form-control" name="nama_account" required>

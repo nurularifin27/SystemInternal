@@ -29,9 +29,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ route('transaksi') }}"><i class="fa fa-circle-o"></i> Pemasukan</a></li>
-            <li><a href="{{ route('transaksi') }}"><i class="fa fa-circle-o"></i> Pengeluaran</a></li>
-            <li><a href="{{ route('transaksi')}}"><i class="fa fa-circle-o"></i> Mutasi</a></li>
+            <li><a href="{{ route('pemasukan') }}"><i class="fa fa-circle-o"></i> Pemasukan</a></li>
+            <li><a href="{{ route('pengeluaran') }}"><i class="fa fa-circle-o"></i> Pengeluaran</a></li>
+            <li><a href="{{ route('mutasi')}}"><i class="fa fa-circle-o"></i> Mutasi</a></li>
           </ul>
         </li>
         <li class="treeview">

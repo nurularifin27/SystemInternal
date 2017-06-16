@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
     <link rel="stylesheet" href="plugins/select2/select2.min.css">
     <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="plugins/datatables/dataTables.bootstrap.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -56,6 +57,8 @@
     <script src="plugins/datatables/dataTables.bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
     <script src="plugins/daterangepicker/daterangepicker.js"></script>
+    <script src="plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="plugins/datatables/dataTables.bootstrap.min.js"></script>
     <script>
         $(function () {
             $(".select2").select2();
@@ -63,7 +66,27 @@
                 autoclose: true,
                 todayHighlight: true
             });
+            $('#datepicker2').datepicker({
+                autoclose: true,
+                todayHighlight: true
+            });
             $('#reservation').daterangepicker();
+            $('#listTabel').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": false,
+                "info": false,
+                "autoWidth": false
+            });
+            $('#listTabel2').DataTable({
+                "paging": false,
+                "lengthChange": false,
+                "searching": false,
+                "ordering": false,
+                "info": false,
+                "autoWidth": true
+            });
         });
     </script>
 </body>

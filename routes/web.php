@@ -18,9 +18,21 @@
         return view('welcome');
     });
 
-    Route::get('/transaksi', function () {
-        return view('transaksi');
-    })->name('transaksi');
+    Route::get('/pemasukan', function () {
+        return view('pemasukan');
+    })->name('pemasukan');
+
+    Route::get('/pengeluaran', function () {
+        return view('pengeluaran');
+    })->name('pengeluaran');
+
+    Route::get('/mutasi', function () {
+        return view('mutasi');
+    })->name('mutasi');
+
+    Route::get('/detail-akomodasi', function () {
+        return view('detailakomodasi');
+    })->name('detail-akomodasi');
     
     Route::get('/sppd', function () {
         return view('sppd');
@@ -50,6 +62,7 @@
         'uses'=>'KaryawanController@postLogin',
         'as'=> 'login'
     ]);
+
     Route::post('/register',[
         'uses'=>'KaryawanController@postRegister',
         'as'=> 'register'

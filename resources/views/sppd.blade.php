@@ -19,15 +19,222 @@
     <section class="content">
         <div class="box box-default">
         <div class="box-header with-border">
-          <h3 class="box-title">SPPD</h3>
+          <h3 class="box-title pull-left">SPPD</h3>
+            <button type="button" class="btn btn-info pull-right" data-toggle="modal" data-target="#sppdModal">Add New</button>
         </div>
         <!-- /.box-header -->
         <div class="box-body">
-            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#sppdModal">Add New</button>
-            <div class="row">
             
-                
-            </div>
+                <table id="listTabel" class="table table-bordered table-striped table-hover">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Kirim Ke</th>
+                    <th>Tujuan</th>
+                    <th>Project</th>
+                    <th>Tanggal</th>
+                    <th>Jumlah Hari</th>
+                    <th>Harian (Rp)</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody
+                    <tr>
+                        <td>1</td>
+                        <td>Oka, Yanwar, Nurul</td>
+                        <td>Jakarta</td>
+                        <td>Project System Internal Perusahaan</td>
+                        <td>01/02/2017 - 02/02/2017</td>
+                        <td>91</td>
+                        <td>300000</td>
+                        <td>2700000</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-trash-o"></i></a>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka, Yanwar, Nurul</td>
+                        <td>Jakarta</td>
+                        <td>Project System Internal Perusahaan</td>
+                        <td>01/02/2017 - 02/02/2017</td>
+                        <td>91</td>
+                        <td>300000</td>
+                        <td>2700000</td>
+                        <td><span class="label label-warning">saved as draft</span></td>
+                        <td>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-trash-o"></i></a>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka, Yanwar, Nurul</td>
+                        <td>Jakarta</td>
+                        <td>Project System Internal Perusahaan</td>
+                        <td>01/02/2017 - 02/02/2017</td>
+                        <td>91</td>
+                        <td>300000</td>
+                        <td>2700000</td>
+                        <td><span class="label label-info">wait for approve</span></td>
+                        <td>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-trash-o"></i></a>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka, Yanwar, Nurul</td>
+                        <td>Jakarta</td>
+                        <td>Project System Internal Perusahaan</td>
+                        <td>01/02/2017 - 02/02/2017</td>
+                        <td>91</td>
+                        <td>300000</td>
+                        <td>2700000</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-trash-o"></i></a>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka, Yanwar, Nurul</td>
+                        <td>Jakarta</td>
+                        <td>Project System Internal Perusahaan</td>
+                        <td>01/02/2017 - 02/02/2017</td>
+                        <td>91</td>
+                        <td>300000</td>
+                        <td>2700000</td>
+                        <td><span class="label label-warning">saved as draft</span></td>
+                        <td>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-trash-o"></i></a>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka, Yanwar, Nurul</td>
+                        <td>Jakarta</td>
+                        <td>Project System Internal Perusahaan</td>
+                        <td>01/02/2017 - 02/02/2017</td>
+                        <td>91</td>
+                        <td>300000</td>
+                        <td>2700000</td>
+                        <td><span class="label label-info">wait for approve</span></td>
+                        <td>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-trash-o"></i></a>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka, Yanwar, Nurul</td>
+                        <td>Jakarta</td>
+                        <td>Project System Internal Perusahaan</td>
+                        <td>01/02/2017 - 02/02/2017</td>
+                        <td>91</td>
+                        <td>300000</td>
+                        <td>2700000</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-trash-o"></i></a>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka, Yanwar, Nurul</td>
+                        <td>Jakarta</td>
+                        <td>Project System Internal Perusahaan</td>
+                        <td>01/02/2017 - 02/02/2017</td>
+                        <td>91</td>
+                        <td>300000</td>
+                        <td>2700000</td>
+                        <td><span class="label label-warning">saved as draft</span></td>
+                        <td>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-trash-o"></i></a>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka, Yanwar, Nurul</td>
+                        <td>Jakarta</td>
+                        <td>Project System Internal Perusahaan</td>
+                        <td>01/02/2017 - 02/02/2017</td>
+                        <td>91</td>
+                        <td>300000</td>
+                        <td>2700000</td>
+                        <td><span class="label label-info">wait for approve</span></td>
+                        <td>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-trash-o"></i></a>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka, Yanwar, Nurul</td>
+                        <td>Jakarta</td>
+                        <td>Project System Internal Perusahaan</td>
+                        <td>01/02/2017 - 02/02/2017</td>
+                        <td>91</td>
+                        <td>300000</td>
+                        <td>2700000</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-trash-o"></i></a>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka, Yanwar, Nurul</td>
+                        <td>Jakarta</td>
+                        <td>Project System Internal Perusahaan</td>
+                        <td>01/02/2017 - 02/02/2017</td>
+                        <td>91</td>
+                        <td>300000</td>
+                        <td>2700000</td>
+                        <td><span class="label label-warning">saved as draft</span></td>
+                        <td>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-trash-o"></i></a>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka, Yanwar, Nurul</td>
+                        <td>Jakarta</td>
+                        <td>Project System Internal Perusahaan</td>
+                        <td>01/02/2017 - 02/02/2017</td>
+                        <td>91</td>
+                        <td>300000</td>
+                        <td>2700000</td>
+                        <td><span class="label label-info">wait for approve</span></td>
+                        <td>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-trash-o"></i></a>
+                            
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
         </div>
       </div>
         

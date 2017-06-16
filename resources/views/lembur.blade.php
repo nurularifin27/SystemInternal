@@ -19,15 +19,240 @@
     <section class="content">
         <div class="box box-default">
         <div class="box-header with-border">
-          <h3 class="box-title">Lembur</h3>
+          <h3 class="box-title pull-left">Lembur</h3>
+            <button type="button" class="btn btn-info pull-right" data-toggle="modal" data-target="#lemburModal">Add New</button>
         </div>
         <!-- /.box-header -->
         <div class="box-body">
-            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#lemburModal">Add New</button>
-            <div class="row">
-            
+            <table id="listTabel" class="table table-bordered table-striped table-hover">
                 
-            </div>
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Kirim Ke</th>
+                    <th>Atas Nama</th>
+                    <th>Project</th>
+                    <th>Keterangan</th>
+                    <th>Tanggal</th>
+                    <th>Jumlah Jam</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>oka, nurul, yanwar</td>
+                        <td>Saya asa</td>
+                        <td>system internal</td>
+                        <td>pembuatan syystem internal untuk sebuah perusahaan</td>
+                        <td>02/02/2017</td>
+                        <td>4</td>
+                        <td><span class="label label-success">Approved</span></td>
+                        <td>
+                            <a href="#"><i class="fa fa-edit"></i></a>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
           <!-- /.row -->
         </div>
       </div>

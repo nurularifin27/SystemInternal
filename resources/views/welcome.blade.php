@@ -32,15 +32,23 @@
   <!-- /.login-logo -->
   <div class="login-box-body">
     <p class="login-box-msg">Sign in to start your session</p>
-
+    @if(count($errors)>0)
+    <div class="alert alert-danger alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+        <h4><i class="icon fa fa-info"></i> Alert!</h4>
+        @foreach($errors -> all() as $error)
+            {{ $error }}<br>
+        @endforeach
+    </div>
+    @endif
     <form action="{{ route('login') }}" method="post" role="form">
         {{ csrf_field() }}
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Username" name="username" required>
+        <input type="text" class="form-control" placeholder="Username" name="username" value="{{ Request::old('username') }}" required>
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password" name="password" required>
+        <input type="password" class="form-control" placeholder="Password" name="password" value="{{ Request::old('password') }}" required>
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">

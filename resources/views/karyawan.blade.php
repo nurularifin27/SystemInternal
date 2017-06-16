@@ -24,11 +24,76 @@
         <!-- /.box-header -->
         <div class="box-body">
             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#karyawanModal">Add New</button>
-            <div class="row">
-            
-                
-            </div>
           <!-- /.row -->
+        </div>
+        <div class="box-body">
+            <table id="listTabel" class="table table-bordered table-hover">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Username</th>
+                    <th>Nama Lengkap</th>
+                    <th>Jabatan</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody
+                    <tr>
+                        <td>1</td>
+                        <td>Oka</td>
+                        <td>Oka Hartanto</td>
+                        <td>System Analyst</td>
+                        <td>
+                            action
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka</td>
+                        <td>Oka Hartanto</td>
+                        <td>System Analyst</td>
+                        <td>
+                            action
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka</td>
+                        <td>Oka Hartanto</td>
+                        <td>System Analyst</td>
+                        <td>
+                            action
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka</td>
+                        <td>Oka Hartanto</td>
+                        <td>System Analyst</td>
+                        <td>
+                            action
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka</td>
+                        <td>Oka Hartanto</td>
+                        <td>System Analyst</td>
+                        <td>
+                            action
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Oka</td>
+                        <td>Oka Hartanto</td>
+                        <td>System Analyst</td>
+                        <td>
+                            action
+                        </td>
+                    </tr>
+                </tbody>
+                </table>    
         </div>
       </div>
         
